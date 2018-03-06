@@ -1,8 +1,5 @@
-newtype Eval = 
-  deriving(Eq, Show)
-
-eval :: a -> Integer
-eval
+newtype Eval a where
+  eval :: a -> Integer
 
 data Lit = Lit Integer
 
