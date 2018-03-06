@@ -1,4 +1,4 @@
-newtype Eval a where
+class Eval a where
   eval :: a -> Integer
 
 data Lit = Lit Integer
